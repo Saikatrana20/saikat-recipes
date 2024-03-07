@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Recipes.io</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="logo">
+                <h1>Recipes.io</h1>
+            </div>
+
+            <div class="nav-links">
+                <ul id="menu">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <!-- <li><a href="#">Recipe</a></li> -->
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-btn">
+                <i class="fa-solid fa-bars" onclick="openMenu()" id="menu-Icon"></i>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()" id="close-Icon"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero-Section -->
+        <section class="hero">
+            <div class="hero-section">
+                <h2>Welcome to our Recipes Collection !</h2>
+                <p>Search mouth watering recipes to satisfy your carving</p>
+
+                <form action="#" class="Search-box">
+                    <input type="text" placeholder="Search Recipe">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Recipes Section -->
+        <section class="recipes">
+
+            <h1>Featured Recipes</h1>
+
+            <div class="recipe-section">
+                <div class="recipe-card">
+                    <img src="./images/dish-1.jpg" alt="">
+                    <h2>Strawberry Custard</h2>
+                    <a href="./recipes/Strawberry_custard.html">View Recipe</a>
+                </div>
+
+                <div class="recipe-card">
+                    <img src="./images/Vanila cake.jpg" alt="">
+                    <h2>Eggless Vanilla Cake</h2>
+                    <a href="./recipes/Vanila cake.html">View Recipe</a>
+                </div>
+
+                <div class="recipe-card">
+                    <img src="./images/Pancakes.jpg" alt="">
+                    <h2>Pancakes</h2>
+                    <a href="#">View Recipe</a>
+                </div>
+
+                <div class="recipe-card">
+                    <img src="./images/gulab_jamun.jpeg" alt="">
+                    <h2>Gulab Jamun</h2>
+                    <a href="#">View Recipe</a>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &COPY; Recipes.io Pvt Ltd 2024 All Right Reserved</p>
+    </footer>
+    <!-- ....................JAVASCRIPT LINK.................... -->
+    <script src="./javascript/script.js"></script>
+
+</body>
+
+</html>
