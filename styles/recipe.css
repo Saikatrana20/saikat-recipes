@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #f8f8f8;
+
+}
+
+
+header {
+    height: 60px;
+    width: 100%;
+    color: #fff;
+    background-color: #3b3a3a;
+    display: flex;
+    align-items: center;
+
+}
+
+
+/* Nav-bar */
+
+nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    font-size: 30px;
+}
+
+.nav-links {
+    margin-left: auto;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links a:hover {
+    color: darkgreen;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn i {
+    font-size: 25px;
+    margin: 0 6px;
+    display: none;
+}
+
+/* ..................container................... */
+.contentbox {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 60px;
+    border: black 2px solid;
+    border-radius: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+.contentbox p {
+    text-align: center;
+    width: 100%;
+    min-height: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+.pre-time{
+    height: auto;
+    width: 400px;
+    border: 2px solid rgb(136, 60, 222);
+    background-color: rgba(136, 60 , 222, 0.2);
+    padding: 20px 40px;
+    margin: auto;
+}
+.line{
+    /* border: 0px;
+    background: #000;
+    height: 1.2px; */
+    margin: 20px auto;
+    
+    
+}
+
+.ingredients{
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+/* media Query*/
+@media only screen and (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+
+    #nav-list {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu {
+        background-color: #515050;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        text-align: center;
+        height: auto;
+    }
+
+    #menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .nav-btn i {
+        display: block;
+    }
+
+    #close-Icon {
+        display: none;
+        font-size: 30px;
+    }
+}
+
+
+
+
+/* Footer */
+footer {
+    background: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+}
