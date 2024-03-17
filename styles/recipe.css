@@ -78,7 +78,7 @@ nav {
     margin: 0 auto;
     padding: 20px 60px;
     border: black 2px solid;
-    border-radius: 60px;
+    border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -90,7 +90,7 @@ img {
     height: auto;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
+}
 
 .contentbox p {
     text-align: center;
@@ -101,26 +101,37 @@ img {
 h1 {
     text-align: center;
 }
-.pre-time{
+
+.pre-time {
     height: auto;
     width: 400px;
     border: 2px solid rgb(136, 60, 222);
-    background-color: rgba(136, 60 , 222, 0.2);
+    background-color: rgba(136, 60, 222, 0.2);
     padding: 20px 40px;
     margin: auto;
 }
-.line{
+
+.line {
     /* border: 0px;
     background: #000;
     height: 1.2px; */
     margin: 20px auto;
-    
-    
+
+
 }
 
-.ingredients{
+.ingredients {
     margin: auto;
     padding: 20px;
+}
+
+.instructions {
+    padding: 10px 20px;
+}
+
+.instructions li {
+    margin-bottom: 15px;
+
 }
 
 
@@ -134,6 +145,7 @@ h1 {
     #nav-list {
         display: block;
     }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -167,6 +179,14 @@ h1 {
     #close-Icon {
         display: none;
         font-size: 30px;
+    }
+
+    .pre-time {
+        width: 100%;
+    }
+
+    .contentbox {
+        padding: 20px 20px;
     }
 }
 
