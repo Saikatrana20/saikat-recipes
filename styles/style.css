@@ -141,7 +141,7 @@ nav {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    column-gap: 10px;
+    column-gap: 30px;
 }
 
 .recipe-card {

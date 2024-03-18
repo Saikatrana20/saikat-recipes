@@ -119,6 +119,9 @@ h1 {
 
 
 }
+span{
+    font-weight: 650;
+}
 
 .ingredients {
     margin: auto;
@@ -132,6 +135,10 @@ h1 {
 .instructions li {
     margin-bottom: 15px;
 
+}
+.aditional{
+    font-weight: 250;
+    padding: 20px;
 }
 
 
