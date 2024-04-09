@@ -54,7 +54,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: darkgreen;
+    color: #4CAF50;
 }
 
 .nav-btn {
@@ -68,7 +68,10 @@ nav {
     margin: 0 6px;
     display: none;
 }
-
+/* ........ACTIVE - PAGE........ */
+.active {
+    border-bottom: solid 3px #45a049;
+}
 
 
 /* Hero-section */
